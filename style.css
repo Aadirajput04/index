@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+ }
+
+ :root {
+    --dark-black: black;
+    --light-green: #BCD9D7;
+    --dark-green: #3A595C;
+    --white: white;
+
+ }
+
+ .parent-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100vh;
+ }
+
+ .parent-container .right{
+   background-color: var(--light-green);
+   padding: 50px;
+ }
+
+ .parent-container .stock{
+   background-color: var(--dark-green);
+   padding: 4px 16px;
+   color: var(--white);
+ }
+
+ .parent-container h1{
+   margin: 16px 0;
+   font-family: Times;
+   font-size: 40px;
+ }
